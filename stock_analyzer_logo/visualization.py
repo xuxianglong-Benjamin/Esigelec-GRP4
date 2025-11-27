@@ -525,7 +525,7 @@ des revenus supplémentaires à moyen terme.""",
         from config import COMPANIES, TEAM_MEMBERS
         
         st.markdown("""
-        ## 🎯 Bienvenue dans le Système d'Analyse Boursière Complète
+        ## 🎯 Bienvenue dans ESIG.BOURSE
         
         Ce projet analyse 5 entreprises françaises du CAC 40 en utilisant une approche complète:
         
@@ -639,4 +639,5 @@ des revenus supplémentaires à moyen terme.""",
         self.display_technical_analysis(result)
         
         # 添加新闻分析部分
+
         self.display_news_analysis(result['company_name'])
