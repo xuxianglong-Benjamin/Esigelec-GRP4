@@ -29,7 +29,7 @@ class Dashboard:
         # 主界面 - Logo在右侧
         col1, col2 = st.columns([8, 2])
         with col1:
-            st.title("📊 ESIG.TRADING")  
+            st.title("📊 ESIG.BOURSE")  
         with col2:
             # 使用Base64编码的SVG
             logo_svg = """
@@ -72,4 +72,5 @@ def main():
 
 if __name__ == "__main__":  
     main()
+
 
